@@ -17,24 +17,24 @@
       
 
       function playRound(playerSelection, computerSelection) {
-        if (playerSelection == "Rock" && computerSelection == "Scissors") {
+        if (playerSelection.toLowerCase() == "rock" && computerSelection == "Scissors") {
           return "You win! Rock beats Scissors";
-        } else if (playerSelection == "Rock" && computerSelection == "Paper") {
+        } else if (playerSelection.toLowerCase() == "rock" && computerSelection == "Paper") {
           return "You lose! Paper beats Rock"
-        } else if (playerSelection == "Rock" && computerSelection == "Rock") {
+        } else if (playerSelection.toLowerCase() == "rock" && computerSelection == "Rock") {
           return "It\'s a tie! We both chose Rock"
-        } else if (playerSelection == "Paper" && computerSelection == "Rock") {
+        } else if (playerSelection.toLowerCase() == "paper" && computerSelection == "Rock") {
           return "You win! Paper beats Rock"
-        } else if (playerSelection == "Paper" && computerSelection == "Scissors") {
-          return "You lose! Scissor beats Paper"
-        } else if (playerSelection == "Paper" && computerSelection == "Paper") {
+        } else if (playerSelection.toLowerCase() == "paper" && computerSelection == "Scissors") {
+          return "You lose! Scissors beats Paper"
+        } else if (playerSelection.toLowerCase() == "paper" && computerSelection == "Paper") {
           return "It\'s a tie! We both chose Paper"
-        } else if (playerSelection == "Scissor" && computerSelection == "Paper") {
-          return "You win! Scissor beats Paper"
-        } else if (playerSelection == "Scissor" && computerSelection == "Rock") {
-          return "You lose! Rock beats Scissor"
-        } else if (playerSelection == "Scissor" && computerSelection == "Scissor") {
-          return "It\'s a tie! We both chose Scissor"
+        } else if (playerSelection.toLowerCase() == "scissors" && computerSelection == "Paper") {
+          return "You win! Scissors beats Paper"
+        } else if (playerSelection.toLowerCase() == "scissors" && computerSelection == "Rock") {
+          return "You lose! Rock beats Scissors"
+        } else if (playerSelection.toLowerCase() == "scissors" && computerSelection == "Scissors") {
+          return "It\'s a tie! We both chose Scissors"
         }
       }
 
