@@ -9,7 +9,7 @@ The player will enter "Rock", "Paper" or "Scissors". The computer will randomly 
 Several games are played in a row until the player either won or lost three games. At this point, the computer declares a winner.
 
 --Pseudocode--
-Randomly choose "Rock", "Paper" or "Scissors"
-User inputs "Rock", "Paper" or "Scissors"
+Randomly choose "Rock", "Paper" or "Scissors".
+User inputs "Rock", "Paper" or "Scissors".
 Return both choices and inform the user if they won, lost or if there is a tie.
-Repeat this process until the user won or lost three times and declare them winner or looser accordingly.
+Repeat this process until the user won or lost three times and declare them winner or loser accordingly.
